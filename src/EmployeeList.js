@@ -3,11 +3,8 @@ import EmployeeListItem from './EmployeeListItem';
 
 function EmployeeList(){
     return(
-        <div className = "employeeList" style = {{backgroundColor: "purple"}}>
-<EmployeeListItem/>
-<EmployeeListItem/>
-<EmployeeListItem/>
-<EmployeeListItem/>
+        <div className = "employeeList" style = {{border: "2px purple solid", margin: "4px"}}>
+        Employee List
 <EmployeeListItem/>
 
 </div>
